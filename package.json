@@ -3,6 +3,11 @@
   "version": "0.1.0",
   "description": "Switch the agent preset (standard / PTC / cordis) of an already-started conversation from the session header.",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jipika/dsh-preset-hotswap.git"
+  },
+  "homepage": "https://github.com/jipika/dsh-preset-hotswap#readme",
   "type": "module",
   "main": "./lib/index.js",
   "exports": {
@@ -21,5 +26,13 @@
     "lib/client.js",
     "README.md",
     "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "agent-preset",
+    "session-header",
+    "hotswap"
   ]
 }

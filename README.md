@@ -4,6 +4,8 @@
 > **冲突时**：与官方模式徽标共用 slot `conversation.session.header.actions`，靠 order 排布；轮次进行中一律拒切。
 > **回滚**：删 profile `cordis.patch.yml` 里 id `preset-hotswap` 的 insert + 从 `dependencies` 移除 + 完全重启应用。
 
+[![license](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+
 会话头部「对话模式」热切换：**已经开始的会话也能切** 标准 / PTC / 创造。
 
 ## 它解决什么
