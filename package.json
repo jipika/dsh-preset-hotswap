@@ -1,0 +1,25 @@
+{
+  "name": "dsh-preset-hotswap",
+  "version": "0.1.0",
+  "description": "Switch the agent preset (standard / PTC / cordis) of an already-started conversation from the session header.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "README.md",
+    "LICENSE"
+  ]
+}
