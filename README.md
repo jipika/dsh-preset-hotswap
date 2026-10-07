@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="assets/icon.svg" width="72" alt="dsh-preset-hotswap icon">
+</div>
+
 # dsh-preset-hotswap
 
 > **拥有**：`/dsh-preset-hotswap` 路由（GET 模式名单 / POST 切换）与会话头部的模式下拉。
