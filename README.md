@@ -42,3 +42,18 @@ desktop profile（Electron 独占 CLI，只能手改）：
 3. `pnpm install` 后**完全重启应用**（client bundle 在 host 启动时读入内存，刷新页面无效）。
 
 回滚：删掉 insert 块与依赖行，重启。
+
+---
+
+## ☕ 赞赏支持
+
+如果 dsh-preset-hotswap 对你的研究与测试有所帮助，欢迎请作者喝杯咖啡 ☕
+
+<p align="center">
+  <img src="assets/sponsor.jpg" width="260" alt="微信赞赏码" />
+  <img src="assets/afdian_reward.jpg" width="200" alt="爱发电赞助码" />
+</p>
+
+<p align="center">
+  <b>给项目点个 Star ⭐</b> 同样是对开发者最大的鼓励！
+</p>
